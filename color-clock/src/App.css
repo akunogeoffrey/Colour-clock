@@ -1,0 +1,54 @@
+/* Full-page centered layout with a gradient background */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Center the clock on screen */
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Title styling */
+.clock-title {
+  color: #e94560;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+/* The clock card box */
+.clock-box {
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid #e94560;
+  border-radius: 16px;
+  padding: 40px 60px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(233, 69, 96, 0.4);
+}
+
+/* Large time display */
+.clock-time {
+  color: #00d4ff;
+  font-size: 4rem;
+  margin: 0 0 10px 0;
+  letter-spacing: 6px;
+}
+
+/* Date display below the time */
+.clock-date {
+  color: #a8dadc;
+  font-size: 1.2rem;
+  margin: 0;
+  letter-spacing: 2px;
+}
